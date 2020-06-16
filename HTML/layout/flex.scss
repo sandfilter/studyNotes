@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.page-1{ width: 80%; height: 400px; margin: auto;
+  >header,
+  >footer{ height: 50px; background-color: #aaa;}
+  >section{ display: flex; height: 300px;
+    .left{ width: 100px; background-color: #555;}
+    .content{ background-color: #666; width: calc(100% - 100px);
+      .square {
+        width: 30%;
+        overflow: hidden;
+        background: yellow;
+        &::after {
+          content: "";
+          display: block;
+          margin-top: 100%;
+        }
+      }
+    }
+  }
+}

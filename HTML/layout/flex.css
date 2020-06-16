@@ -1,0 +1,2 @@
+.page-1{width:80%;height:400px;margin:auto}.page-1>header,.page-1>footer{height:50px;background-color:#aaa}.page-1>section{display:flex;height:300px}.page-1>section .left{width:100px;background-color:#555}.page-1>section .content{background-color:#666;width:calc(100% - 100px)}.page-1>section .content .square{width:30%;overflow:hidden;background:yellow}.page-1>section .content .square::after{content:"";display:block;margin-top:100%}
+/*# sourceMappingURL=flex.css.map */
